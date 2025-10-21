@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Love Marker';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Love Marker'),
+         url('fonts/LoveMarker.ttf') format('truetype');
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('AdobeStock_429119301.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Love Marker', sans-serif;
+}
+
+h1 {
+    margin-top: 35px;
+    font-size: 38px;
+    text-align: center;
+    color: black;
+}
+
+.calculator {
+    background-color: dodgerblue;
+    font-size: 38px;
+    height: 500px;
+    width: 500px;
+    border: 0.05px black solid; 
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divAnswer {
+    font-family: 'Love Marker';
+    font-size: 36px;
+    color: black;
+    background-color: aliceblue;
+    width: 400px;
+    height: 100px;
+    border: 0.05px black solid;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    align-items: flex-end; /* vertical: bottom */
+    justify-content: flex-end; /* horizontal: right */
+    padding: 10px; /* keep text away from edges */
+    box-sizing: border-box;
+}
+
+.numberBtns {
+    display: block; 
+    margin-left: 50px;
+    margin-top: 60px;
+    max-width: 225px;
+    max-height: 300px;
+    gap: 60px;
+    float: left;
+    justify-content: space-evenly space-between;
+}
+
+button#one, 
+button#two, 
+button#three,
+button#four,
+button#five,
+button#six,
+button#seven, 
+button#eight, 
+button#nine, 
+button#zero {
+    font-family: 'Love Marker';
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 0.05px solid black;
+    border-radius: 8px;
+    background-color: aliceblue; 
+}
+
+button#clear {
+    font-family: 'Love Marker';
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 0.05px solid black;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+.operatorBtns {
+    float: right;
+    margin-top: 35px;
+    display: block;
+    max-width: 100px;
+    max-height: 250px;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-left: 60px;
+}
+
+button#add, 
+button#subtract,
+button#multiply,
+button#divide,
+button#equals {
+    font-family: 'Love Marker';
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 0.05px solid black;
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+
